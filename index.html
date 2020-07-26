@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Zachery Son" />
+    <title>Uptivity</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <section class="center">
+      <div class="js-clock clock">
+        <h1 class="js-title time">00:00</h1>
+      </div>
+      <form class="js-form form">
+        <input
+          class="name_input"
+          type="text"
+          placeholder="What is your name?"
+        />
+      </form>
+      <h4 class="js-greetings greetings"></h4>
+      <div>
+        <form class="js-todoForm">
+          <input type="text" placeholder="Write a todo" />
+        </form>
+        <ul class="js-todoList list"></ul>
+      </div>
+    </section>
+
+    <div class="js-location location">
+      <span class="location_text"></span>
+    </div>
+
+    <div class="js-weather weather">
+      <span class="weather_text"></span>
+    </div>
+
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
